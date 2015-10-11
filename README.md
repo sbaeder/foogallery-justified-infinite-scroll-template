@@ -49,7 +49,7 @@ Installation
 1. Set values for the number to be included on the first and each subsequent page.  If the number is "0", 
 all unprocessed images will be added to the gallery (either on the first or the second page)
 
-== Changelog ==
-
+Changelog
+---------
 = 1.0 =
 * Initial version - pre-release...
