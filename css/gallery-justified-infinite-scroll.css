@@ -1,0 +1,28 @@
+/*
+Add any CSS that will be needed by your Justified Infinite Scroll gallery template. This will be output to the frontend
+*/
+
+ul.foogallery-justified-infinite-scroll li {
+	display: inline;
+}
+
+	ul.foogallery-justified-infinite-scroll li a {
+		background: #fff;
+		display: inline;
+		float: left;
+		margin: 0 30px 20px 0;
+		width: auto;
+		padding: 10px 10px 15px;
+	}
+
+		ul.foogallery-justified-infinite-scroll li a:hover {
+			 -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+			 -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+		 }
+
+	ul.foogallery-justified-infinite-scroll li img {
+		display: block;
+		width: 190px;
+		margin-bottom: 12px;
+	}
+
