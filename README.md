@@ -1,16 +1,12 @@
 FooGallery Justified Infinite Scroll Extension 
 ==============================================
-
-Contributors: 
-Donate link:
-Tags: foogallery, foo gallery, Justified Gallery, Infinite Scroll
-Requires at least: 3.4
-Tested up to: 
-Stable tag: 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Extension for FooGallery, 
+* Contributors: Scott Baeder
+* Tags: foogallery, foo gallery, Justified Gallery, Infinite Scroll
+* Requires at least: 3.4
+* Tested up to: 
+* Stable tag: 
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Description
 -----------
