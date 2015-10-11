@@ -1,4 +1,6 @@
-=== FooGallery Justified Infinite Scroll Extension ===
+FooGallery Justified Infinite Scroll Extension 
+==============================================
+
 Contributors: 
 Donate link:
 Tags: foogallery, foo gallery, Justified Gallery, Infinite Scroll
@@ -10,7 +12,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Extension for FooGallery, 
 
-== Description ==
+Description
+-----------
 
 This is basically a "clone" of the existing "Justified Gallery" default template. But since
 the underlying javascript engine now has the ability to do an "infinite scroll" (
@@ -24,7 +27,8 @@ before you actually hit the end of the gallery.
 
 This is still "in development" ...
 
-= Features at a glance =
+Features at a glance
+--------------------
 
 * All the features of the built-in "justified Gallery Template"
 * Adds ability to use the underlying javascript functionality of "norewind" which allows splitting up the content into "pages".
@@ -36,7 +40,8 @@ You will need [FooGallery](http://wordpress.org/plugins/foogallery/) installed.
 
 [Check out all the FooGallery Extensions](http://foo.gallery/)
 
-== Installation ==
+Installation
+------------
 
 1. Upload the ` ` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -44,11 +49,7 @@ You will need [FooGallery](http://wordpress.org/plugins/foogallery/) installed.
 1. Set values for the number to be included on the first and each subsequent page.  If the number is "0", 
 all unprocessed images will be added to the gallery (either on the first or the second page)
 
-== Frequently asked questions ==
-
-== Screenshots ==
-
 == Changelog ==
 
 = 1.0 =
-* Initial version
+* Initial version - pre-release...
