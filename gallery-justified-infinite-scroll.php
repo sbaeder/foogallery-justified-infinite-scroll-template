@@ -25,23 +25,11 @@ $total_count    = sizeof( $current_foogallery->attachments() );
 if ( strpos( $max_row_height, '%' ) !== false ) {
 	$max_row_height = '"' . $max_row_height . '"';
 };
-//none doesn't work well inside the justified gallery...(bug inside default template)
-//so for now, reset to "custom"
-if ($thumb_link == 'none') {
- 	$args = array(
-		'height' => $height,
-		'link' => 'custom',
-		'custom_link' => '#',
-	);
-	
-} else {
-	$args = array(
-		'height' => $height,
-		'link' => $thumb_link
-	);
-	
-};
 
+$args = array(
+	'height' => $height,
+	'link' => $thumb_link
+);
 ?>
 
 <div data-justified-options='{ "rowHeight": <?php echo $height; ?>, 
@@ -68,7 +56,9 @@ if ($thumb_link == 'none') {
 		} else if ( 'caption' == $caption_source ) {
 			$attachment->alt = $attachment->caption;
 		}
+		if ($thumb_link == 'none') echo "<div>"; //no link means wrap in <div>
 		echo $attachment->html( $args );
+		if ($thumb_link == 'none') echo "</div>"; //no link means wrap in <div>
 	}
 	?>
 </div>
@@ -106,7 +96,9 @@ if ($page_mode == "page") {?>
 			} else if ( 'caption' == $caption_source ) {
 				$attachment->alt = $attachment->caption;
 			}
+			if ($thumb_link == 'none') echo esc_html("<div>"); //no link means wrap in <div>
 			echo  esc_html ( $attachment->html( $args ) );
+			if ($thumb_link == 'none') echo esc_html("</div>"); //no link means wrap in <div>
 			if ($j == $per_page) { $j = 0; }	//reset the page counter for the next "group"
 		};
 		echo "'];" ;
