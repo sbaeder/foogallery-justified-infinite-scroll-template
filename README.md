@@ -29,7 +29,7 @@ Features at a glance
 Installation
 ------------
 
-1. Upload the ` ` folder to the `/wp-content/plugins/` directory
+1. Upload the contents of this folder to the `/wp-content/plugins/foogallery-justified-infinite-scroll-template` directory (create it if necessary)
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Setup your gallery as normal in FooGallery, choosing the Justified with Infinite Scroll gallery type
 1. Set values for the thumbnail and infinite scroll as mentioned above.
@@ -49,5 +49,10 @@ You can also check out the other FooGallery Extensions [here](http://foo.gallery
 
 Changelog
 ---------
+
+= 1.0.1 =
+* final clean-up and testing
+* modify UI, and add ability to select existing thumbnail or dynaic generation of the image
+
 = 1.0 =
 * Initial version - pre-release...
